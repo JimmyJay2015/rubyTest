@@ -45,3 +45,9 @@ group :development do
   gem 'spring'
 end
 
+
+group :production do
+  gem 'pg', '0.15.1'
+end
+
+
